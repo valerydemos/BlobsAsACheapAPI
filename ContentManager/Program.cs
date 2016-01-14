@@ -16,7 +16,7 @@ namespace ContentManager
         static void Main(string[] args)
         {
 
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=vjdemostorage;AccountKey=vwEq8bSfqCrz7usnTZ7UUpWe8f+PZRxkERBhMmpRHCan4LK8700SNIlTfZOjVSZ8N9VBHv+xtztaYcF1P4xHwg==;");
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=vjdemostorage;AccountKey=vwEq8bSfqCrz7usnTZ7UUpWe8f+PZRxk##### YOU WISH! #####ZOjVSZ8N9VBHv+xtztaYcF1P4xHwg==;");
             CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
             CloudBlobContainer container = blobClient.GetContainerReference("cheapapi");
             container.CreateIfNotExists();
